@@ -33,12 +33,12 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
           <DevelopmentModeNotice />
 
-          <Text style={styles.getStartedText}>Get started by opening</Text>
+          <Text style={styles.getStartedText}>:O</Text>
 
           <View
             style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
           >
-            <MonoText>screens/HomeScreen.js</MonoText>
+            <MonoText>:)</MonoText>
           </View>
 
           <Text style={styles.getStartedText}>WHAAAAT</Text>
@@ -46,9 +46,7 @@ export default function HomeScreen() {
 
         <View style={styles.helpContainer}>
           <TouchableOpacity onPress={handleHelpPress} style={styles.helpLink}>
-            <Text style={styles.helpLinkText}>
-              Help, it didn’t automatically reload!
-            </Text>
+            <Text style={styles.helpLinkText}>:D</Text>
           </TouchableOpacity>
         </View>
       </ScrollView>
